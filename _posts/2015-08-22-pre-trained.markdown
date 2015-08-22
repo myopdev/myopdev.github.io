@@ -1,6 +1,6 @@
 ---
-layout: post
+ayout: post
 title:  "Pre-Trained Models"
-date: Sáb 22 Ago 2015 13:24:38 BRT
+date: 2015-08-22 13:24:38
 categories: jekyll update
 ---
