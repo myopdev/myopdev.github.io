@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" 
 url: "http://myopdev.github.io" # the base hostname & protocol for your site
 twitter_username:  ayoshiaki
-github_username:  ayoshiaki
+github_username:  myopdev
 
 # Build settings
 markdown: kramdown

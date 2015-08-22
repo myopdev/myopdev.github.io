@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-* MYOP (https://github.com/myopdev/myop)
-* MYOP Configuration Templates (https://github.com/myopdev/templates/)
-* ToPS (https://github.com/ayoshiaki/tops)
-* SGEval (https://github.com/myopdev/sgeval)
-* SEGSEQ (https://github.com/myopdev/segseq)
+1. [MYOP](https://github.com/myopdev/myop)
+2. [MYOP Configuration Templates ](https://github.com/myopdev/templates/)
+3. [SEGSEQ](https://github.com/myopdev/segseq)
+4. [ToPS](https://github.com/ayoshiaki/tops)
+5. [SGEval](https://github.com/myopdev/sgeval)
 
