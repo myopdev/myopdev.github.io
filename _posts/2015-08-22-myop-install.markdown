@@ -16,7 +16,7 @@ categories: jekyll update
 
 # Installing MYOP
 
-After you have installed the software requirement, you can install MYOP by following the instructions below:
+After you have installed the required software, you can install MYOP by following the instructions below:
 
 * You can download MYOP from our GitHub repository.  
 
