@@ -18,23 +18,23 @@ categories: jekyll update
 
 After you have installed the required software, you can install MYOP by following the instructions below:
 
-* You can download MYOP from our GitHub repository.  
+1. MYOP is available from our GitHub repository.  
 
-```
-git clone https://github.com/myopdev/myop.git
-```
+   ```
+   git clone https://github.com/myopdev/myop.git
+   ```
 
-* Copy the `myop` folder to `/usr/local/` folder.
+2. Copy the `myop` folder to `/usr/local/` folder.
 
-```
-sudo cp -r myop /usr/local
-```
+   ```
+   sudo cp -r myop /usr/local
+   ```
 
-* Add the following line at the end of the `.profile` file.  
+3. Add the following line at the end of the `.profile` file.  
 
-```
-export PATH=$PATH:/usr/local/myop/scripts
-```
+   ```
+   export PATH=$PATH:/usr/local/myop/scripts
+   ```
 
 
 

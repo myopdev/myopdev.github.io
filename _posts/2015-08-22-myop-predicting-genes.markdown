@@ -13,18 +13,24 @@ myop-predict.pl -p <model> -f <fasta file> > out.gtf
 
 # Tutorial 
 
-1. Download the _H. sapiens_ gene model
+1. Download the _C. elegans_ model
 
-   [Pre-trained hsapiens model]()
+   [Pre-trained _C. elegans_ model](https://drive.google.com/uc?export=download&id=0B5edlnlwsocMRHhPM3RHc3ZScmc)
 
-2. Download an example of fasta file
+2. Uncompress the tarball
 
-   [Example of a FASTA file]()
+   ```
+   tar zxvf celegans.tar.gz
+   ```
+
+2. Download the fasta file
+
+   [FASTA file](https://drive.google.com/uc?export=download&id=0B5edlnlwsocMT3lVMzVjNjhqSFU)
 
 3. Execute the ``myop-predict.pl`` program
 
    ```
-   myop-predict.pl -p hsapiens -f test.fa > out.gtf
+   myop-predict.pl -p celegans  -f test.fa > out.gtf
    ```
 
 
