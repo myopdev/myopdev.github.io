@@ -14,8 +14,8 @@ myop-train.pl -g <gtf file> -f <fasta file> -o <output directory>
 # Tutorial 
 
 1. Download the GTF and the Fasta file 
-  * [GTF file]()
-  * [Fasta file]()
+  * [GTF file](https://drive.google.com/uc?export=download&id=0B5edlnlwsocMeTRveDVIVlItM2c)
+  * [Fasta file](https://drive.google.com/uc?export=download&id=0B5edlnlwsocMdnhGZ3pkMTNUNEk)
 
 2. Execute the ``myop-train.pl``
 
