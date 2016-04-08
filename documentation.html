@@ -1,0 +1,30 @@
+---
+layout: default
+title: MYOP - Documentation v1.0.0
+---
+
+<div class="container tops-doc-index">
+  <div class="title">
+    <h1 class="text-center">MYOP Documentation</h1>
+    <h4 class="text-center">Current version 1.0.0</h4>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 tops-doc">
+      <h1><span class="glyphicon fa fa-book" aria-hidden="true"></span> User Guide</h1>
+      <p>This manual covers all the basis of MYOP. It will help you to install, train new models and predict genes.</p>
+
+      {% for guide in site.guides %}
+        <p><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> <a href="{{ guide.url }}">{{ guide.title}}</a></p>
+      {% endfor %}
+    </div>
+    <div class="col-md-4 tops-doc">
+      <h1><span class="glyphicon fa fa-magic" aria-hidden="true"></span> Tutorials</h1>
+      <p>Comming soon</p>
+    </div>
+    <div class="col-md-4 tops-doc">
+      <h1><span class="glyphicon fa fa-star" aria-hidden="true"></span> Publications</h1>
+      <p>Kashiwabara AY, Bonadio I, Onuchic V, Amado F, Mathias R, and Durham AM (2013) <a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003234">ToPS: A Framework to Manipulate Probabilistic Models of Sequence Data.</a> PLoS Comput Biol 9(10): e1003234. doi:10.1371/journal.pcbi.1003234</p>
+    </div>
+  </div>
+</div>

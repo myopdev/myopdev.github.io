@@ -1,0 +1,26 @@
+---
+layout: default
+title: MYOP - Download
+---
+
+<div class="container tops-doc-index">
+  <div class="title">
+    <h1 class="text-center">Download</h1>
+    <p>Here you can get the latest MYOP distributions in your favorite flavor.
+      The current stable version is 1.0.0. Please be sure to read <a href="https://github.com/myopdev/myop/blob/master/LICENSE">MYOP’s License</a>.</p>
+
+    {% for download in site.downloads %}
+      <h2><span class="glyphicon fa fa-tag" aria-hidden="true"></span> {{download.version}}
+          <a href="dist/myop-{{download.version}}.tar.gz" class="btn btn-success btn-lg"><span class="glyphicon fa fa-file-archive-o" aria-hidden="true"></span> tar.gz</a>
+          <a href="dist/myop-{{download.version}}.deb" class="btn btn-success btn-lg"><span class="glyphicon fa fa-linux" aria-hidden="true"></span> Ubuntu</a>
+          <a href="dist/myop-{{download.version}}.dmg" class="btn btn-success btn-lg"><span class="glyphicon fa fa-apple" aria-hidden="true"></span> OS X</a>
+      </h2>
+      <ul>
+        {% for feature in download.features %}
+          <li>{{ feature }}</li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+
+  </div>
+</div>

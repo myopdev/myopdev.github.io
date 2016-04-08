@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="container tops-doc-body">
+  <div class="row">
+    <div class="col-md-3 tops-doc">
+      <h1>User Guide</h1>
+      <ol>
+        {% for guide in site.guides %}
+        <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+        {% endfor %}
+      </ol>
+    </div>
+    <div class="col-md-9 tops-page">
+
+      {{ content }}
+
+      <p class="text-center">
+        {% if page.previous %}
+          <a href="{{ page.previous.url }}">prev</a>
+        {% endif %}
+        |
+        {% if page.next %}
+          <a href="{{ page.next.url }}">next</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</div>

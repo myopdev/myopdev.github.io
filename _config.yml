@@ -1,12 +1,18 @@
 # Site settings
 title: Make Your Own Predictor
-email: kashiwabara@utfpr.edu.br 
+email: kashiwabara@utfpr.edu.br
 description: > # this means to ignore newlines until "baseurl:"
   MYOP is a flexible gene finding system  that facilitates the experimentation and comparison of new probabilistic gene modelling.
-baseurl: "" 
+baseurl: ""
 url: "http://myopdev.github.io" # the base hostname & protocol for your site
 twitter_username:  ayoshiaki
 github_username:  myopdev
 
 # Build settings
 markdown: kramdown
+
+collections:
+  downloads:
+    output: false
+  guides:
+    output: true

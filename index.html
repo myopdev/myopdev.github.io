@@ -1,23 +1,54 @@
 ---
 layout: default
+title: MYOP - Make Your Own Predictor
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="tops-cover">
+  <div class="first_page container text-center">
+    <h1><span class="glyphicon fa fa-connectdevelop" aria-hidden="true"></span> MYOP</h1>
+    <h2>Make Your Own Predictor</h2>
+    <p>MYOP is a flexible gene finding system that facilitates the experimentation and comparison of new probabilistic gene modelling.</p>
+    <a href="download.html" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Download</a>
+  </div>
 </div>
+
+<div class="tops-features">
+  <div class="first_page container">
+    <h1 class="text-center">Features</h1>
+    <div class="row">
+      <div class="col-md-4 tops-feature text-center">
+        <span class="glyphicon fa fa-connectdevelop" aria-hidden="true"></span>
+        <h1>Pre-trained models</h1>
+        <p>Three plants, one insect, three mammals, one parasite, one fish and counting!</p>
+      </div>
+      <div class="col-md-4 tops-feature text-center">
+        <span class="glyphicon fa fa-line-chart" aria-hidden="true"></span>
+        <h1>Accuracy</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+      </div>
+      <div class="col-md-4 tops-feature text-center">
+        <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
+        <h1>Performance</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 tops-feature text-center">
+        <span class="glyphicon fa fa-heart" aria-hidden="true"></span>
+        <h1>User-friendly</h1>
+        <p>No XML config files. No cumbersome commands. MYOP was designed to be easy to use.</p>
+      </div>
+      <div class="col-md-4 tops-feature text-center">
+        <span class="glyphicon fa fa-archive" aria-hidden="true"></span>
+        <h1>Easy to install</h1>
+        <p>Pre-built binaries for Ubuntu Linux and OS X. <a href="#">Get started now</a>!</p>
+      </div>
+      <div class="col-md-4 tops-feature text-center">
+        <span class="glyphicon fa fa-github" aria-hidden="true"></span>
+        <h1>Open source</h1>
+        <p>Check the official repository at <a href="https://github.com/myopdev/myop">Github</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
