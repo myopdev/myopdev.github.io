@@ -1,6 +1,6 @@
 ---
 version:  "v1.0.0"
 features:
-  - First realease
+  - First release
   - 10 genome models, including A. thaliana, O. sativa, Z. mays, D. melanogaster, H. sapiens, M. musculus, R. norvegicus, P. falciparum, D. rerio and C. elegans
 ---
