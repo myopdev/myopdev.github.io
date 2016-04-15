@@ -5,30 +5,47 @@ layout: doc
 
 # Prediction
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+First you need to choose which model you want to use. To list all available models type `myop`. It will show you something like:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+```
+|--------------------------------|
+| MYOP - Make Your Own Predictor |
+|          version 1.0.0         |
+|--------------------------------|
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Available programs:
+  * myop-predict
+  * myop-train
+  * myop-add-genome
+  * myop-add-transcriptome
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Available genomes:
+  * A.thaliana
+  * C.elegans
+  * D.melanogaster
+  * D.rerio
+  * H.sapiens
+  * M.musculus
+  * O.sativa
+  * P.falciparum
+  * R.norvegicus
+  * Z.mays
+
+Available transcriptomes:
+
+
+```
+
+In this case, there are 10 available genomes and you can choose any of them.
+
+So, if you have a sequence called `seq1.fa` and you want to use the human model, type:
+
+```
+myop-predict -g H.sapiens -f seq1.fa
+```
+
+For more help, try:
+
+```
+myop-predict --help
+```
